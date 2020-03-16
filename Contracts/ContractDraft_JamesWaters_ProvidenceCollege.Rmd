@@ -64,7 +64,7 @@ If at any time, these milestones need to be changed, both parties must agree (by
 ```{r}
 
 Service <- c(Obj1, Obj2, Obj3, Obj4)
-est.time <- c(4,10,10,16)
+est.time <- c(4, 10, 10, 16)
 due.date <- c("-", "-", "-", "-")
 est.cost <- est.time * project_rate
 table <- data.frame(Service, est.time, est.cost, due.date)
